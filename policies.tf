@@ -5,9 +5,3 @@ resource "vault_policy" "k8s_policy" {
   namespace = vault_namespace.kunde1.path
 }
 
-resource "vault_policy" "user" {
-  name      = "user_policy"
-  policy    = file("user-policy.hcl")
-  namespace = vault_namespace.kunde1.path
-
-}
