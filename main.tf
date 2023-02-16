@@ -18,8 +18,8 @@ terraform {
 
 # Vault Provider 
 provider "vault" {
-  address = var.address
-  token = var.token
+  address         = var.address
+  token           = var.token
   skip_tls_verify = true
 }
 

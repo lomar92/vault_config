@@ -10,12 +10,12 @@ variable "SA_JWT_TOKEN" {
 }
 
 variable "SA_CA_CRT" {
-} 
+}
 
 variable "address" {
-  
+
 }
 
 variable "token" {
-  
+
 }
